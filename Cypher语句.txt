@@ -1,0 +1,3 @@
+neo4j stop
+neo4j-admin dump --database=neo4j --to=backup.dump
+neo4j-admin load --from=D:\daochu.db --database=neo4j --force neo4j start
